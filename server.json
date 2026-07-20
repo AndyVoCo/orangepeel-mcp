@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "to.orangepeel/orangepeel",
+  "title": "Orange Peel",
+  "description": "Independent, cited Hermès quota-bag price & market data as MCP tools — current retail/resale, live cross-site median asks, the price-increase ledger, and community-reported benchmarks. Every response carries attribution and honesty labels. Not affiliated with Hermès.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/AndyVoCo/orangepeel-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://orangepeel.to/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://orangepeel.to/api/mcp"
+    }
+  ]
+}
